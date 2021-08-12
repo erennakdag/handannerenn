@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(5, 16, 41);
+}
+
+#bday-title {
+    color: white;
+}
+
+#bday-message-inner {
+    box-shadow: 0 0 3px 3px rgb(172, 40, 201);
+}
+
+#bday-message {
+    color: white;
+}

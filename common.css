@@ -1,0 +1,19 @@
+#bday-title {
+    text-align: center;
+}
+
+#bday-message-inner {
+    width: 500px;
+    margin: auto;
+    border: 1px solid rgb(189, 185, 185);
+}
+
+#bday-message {
+    padding-left: 10px;
+}
+
+#dmt1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
