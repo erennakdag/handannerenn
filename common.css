@@ -3,7 +3,7 @@
     left: 30px;
 }
 
-#bday-title {
+#bday-title, #photo-album-title {
     text-align: center;
 }
 
@@ -15,10 +15,55 @@
 
 #bday-message {
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 #dmt1 {
     position: absolute;
-    top: 0;
+    top: 6px;
     bottom: 0;
+}
+
+#photo-album-container {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    box-shadow: 0 0 3px 3px rgb(196, 76, 165);
+}
+
+#photo1 {
+    float: left;
+}
+
+#photo2 {
+    float: right;
+    top: 200px;
+}
+
+#photo3 {
+    top: 400px;
+    left: -300px;
+}
+
+#photo4 {
+    top: 300px;
+    float: right;
+}
+
+#photo5 {
+    top: 500px;
+    float: left;
+}
+
+#photo6 {
+    top: 700px;
+    float: right;
+    left: 310px;
 }
