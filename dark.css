@@ -6,7 +6,7 @@ body {
     color: white;
 }
 
-#bday-title {
+#bday-title, #photo-album-title {
     color: white;
 }
 
@@ -16,4 +16,8 @@ body {
 
 #bday-message {
     color: white;
+}
+
+img {
+    border: 3px solid white;
 }
