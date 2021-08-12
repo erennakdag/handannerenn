@@ -2,6 +2,10 @@ body {
     background-color: rgb(5, 16, 41);
 }
 
+#todays-date {
+    color: white;
+}
+
 #bday-title {
     color: white;
 }
