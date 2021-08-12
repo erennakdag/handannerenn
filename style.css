@@ -1,7 +1,20 @@
 body {
-    background-color: black;
+    background-color: rgb(5, 16, 41);
 }
 
 #bday-title {
     color: white;
+    text-align: center;
+}
+
+#bday-message-inner {
+    width: 500px;
+    margin: auto;
+    border: 1px solid rgb(189, 185, 185);
+    box-shadow: 0 0 3px 3px rgb(231, 117, 9);
+}
+
+#bday-message {
+    color: white;
+    padding-left: 10px;
 }
