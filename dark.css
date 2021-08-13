@@ -2,20 +2,12 @@ body {
     background-color: rgb(5, 16, 41);
 }
 
-#todays-date {
-    color: white;
-}
-
-#bday-title, #photo-album-title {
+#todays-date, #bday-title, #photo-album-title, #bday-message, #album-message {
     color: white;
 }
 
 #bday-message-inner {
     box-shadow: 0 0 3px 3px rgb(172, 40, 201);
-}
-
-#bday-message {
-    color: white;
 }
 
 img {

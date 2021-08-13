@@ -32,38 +32,23 @@
 }
 
 img {
-    height: 300px;
-    width: 300px;
+    height: 30%;
+    width: 30%;
     position: relative;
     box-shadow: 0 0 3px 3px rgb(196, 76, 165);
 }
 
-#photo1 {
-    float: left;
-}
-
-#photo2 {
-    float: right;
-    top: 200px;
-}
-
-#photo3 {
-    top: 400px;
-    left: -300px;
-}
-
-#photo4 {
-    top: 300px;
+#photo-album-container .album-inner img:nth-child(2) {
     float: right;
 }
 
-#photo5 {
-    top: 500px;
-    float: left;
+#photo-album-container .album-inner {
+    position: relative;
+    padding-top: 30px;
 }
 
-#photo6 {
-    top: 700px;
-    float: right;
-    left: 310px;
+#album-message {
+    text-align: center;
+    font-size: 150%;
+    font-family: Snell Roundhand, cursive;
 }
