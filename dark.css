@@ -2,7 +2,7 @@ body {
     background-color: rgb(5, 16, 41);
 }
 
-#todays-date, #bday-title, #photo-album-title, #bday-message, #album-message {
+#todays-date, #bday-title, #photo-album-title, #bday-message, #album-message, #wishlist-title, .wish-labels {
     color: white;
 }
 
