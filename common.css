@@ -47,6 +47,10 @@ img {
     padding-top: 30px;
 }
 
+#photo-album-container .album-inner img:hover {
+    zoom: 2;
+}
+
 #album-message {
     text-align: center;
     font-size: 150%;
@@ -73,8 +77,7 @@ img {
 }
 
 #add-button-container {
-    height: 100px;
-    width: 200px;
+    width: 300px;
     margin: auto;
     position: relative;
     top: 200px;
