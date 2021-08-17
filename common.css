@@ -75,16 +75,3 @@ img {
 .wish-boxes {
     zoom: 1.5;
 }
-
-#add-button-container {
-    width: 300px;
-    margin: auto;
-    position: relative;
-    top: 200px;
-}
-
-#add {
-    position: relative;
-    left: 18.5%;
-    top: 50%;
-}

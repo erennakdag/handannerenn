@@ -6,9 +6,7 @@ $(document).ready(function () {
     setTitle();
 
     // sets the wishlist
-    setWishlist(wishlist);
-
-    document.getElementById('add').addEventListener('click', addWish);
+    setWishlist();
 });
 
 // hard-coded array literals of day and month name abrevations
@@ -73,44 +71,11 @@ let wishlist = [
 /**
  * sets the input and label elements for the wishlist in HTML.
  */
-function setWishlist(list) {
-    for (let i = 0; i < list.length; i++) {
+function setWishlist() {
+    for (let i = 0; i < wishlist.length; i++) {
         // to see if the wish is met
-        let checked = list[i].done === true ? 'checked': ''
-        $('#wishlist-inner').append(`<input class="wish-boxes" type="checkbox" ${checked}">
-        <label class="wish-labels">${list[i].description}</label><br>`);
+        let checked = wishlist[i].done === true ? 'checked': ''
+        $('#wishlist-inner').append(`<input class="wish-boxes" type="checkbox" name="wish${i}" ${checked}>
+        <label for="wish${i}" class="wish-labels">${wishlist[i].description}</label><br>`);
     }
-}
-
-// adding a wish to the list
-function addWish(event) {
-    event.preventDefault();
-
-    $('#add').before('\
-    <div id="new-wish-info">\
-    <input type="text" id="description" placeholder="Describe...">\
-    <input type="checkbox" name="is-done" id="is-done"><label for="is-done">Done</label>\
-    <br><label for="when">When?</label><input type="datetime-local" name="when" id="when-done">\
-    <br><button id="done-button" type="submit">Done</button>\
-    </div>');
-
-    document.getElementById('done-button').addEventListener('click',(event) => {
-        event.preventDefault();
-
-        const newWish = {
-            description: document.getElementById('description').value,
-            done: document.getElementById('is-done').checked,
-            doneOn: document.getElementById('when-done').value,
-        };
-        wishlist.push(newWish);
-        setWishlist([newWish]);
-        console.log(wishlist)
-
-        $('#add-button-container').empty();
-
-        $('#add-button-container').append('<button id="add" type="button">Add wish to the list</button>');
-
-        // in case eventListener does not work twice which is the case atm :(
-        //window.location.reload()
-    });
 }
