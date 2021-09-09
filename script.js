@@ -74,8 +74,7 @@ let wishlist = [
 function setWishlist() {
     for (let i = 0; i < wishlist.length; i++) {
         // to see if the wish is met
-        let checked = wishlist[i].done === true ? 'checked': ''
-        $('#wishlist-inner').append(`<input class="wish-boxes" type="checkbox" name="wish${i}" ${checked}>
-        <label for="wish${i}" class="wish-labels">${wishlist[i].description}</label><br>`);
+        let checked = wishlist[i].done === true ? 'checked': '';
+        $('#wishlist-inner').append(`<p class="wish-labels">${wishlist[i].description}</p>`);
     }
 }
