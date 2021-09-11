@@ -3,7 +3,7 @@ $(document).ready(function () {
     $('#bday-title').before(`<p id="todays-date">${weekday} ${day} ${months[month]} ${year}</p>`);
 
     // sets the title of the website
-    setTitle();
+    // setTitle();
 
     // sets the wishlist
     setWishlist();
