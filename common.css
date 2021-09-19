@@ -75,3 +75,8 @@ img {
 .wish-boxes {
     zoom: 1.5;
 }
+
+#footer-div {
+    position: relative;
+    top: 200px;
+}
