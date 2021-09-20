@@ -1,2 +1,2 @@
 # lovehub
-A website for my girlfriend's birthday.
+A website for me and my girlfriend where we can control our wish lists and add activities we want to do together.

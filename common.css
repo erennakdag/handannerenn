@@ -76,19 +76,15 @@ img {
     zoom: 1.5;
 }
 
-#video-div {
-    width: 720px;
-    height: 480px;
-    position: relative;
+#video-container {
+    height: 50px;
+    width: 150px;
     margin: auto;
+    position: relative;
     top: 200px;
-}
-
-#video {
-    border: 3px black;
 }
 
 #footer-div {
     position: relative;
-    top: 800px;
+    top: 200px;
 }
