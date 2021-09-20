@@ -65,7 +65,8 @@ let wishlist = [
     {description:"Arabayla dolaşmak", done: false, doneOn: 'NaN',}, 
     {description:"Tiramisu yemek", done: false, doneOn: 'NaN',}, 
     {description:"EP çıkarmak", done: false, doneOn: 'NaN',}, 
-    {description:"Sahil kenarında gün batımını seyretmek", done: false, doneOn: 'NaN',}
+    {description:"Sahil kenarında gün batımını seyretmek", done: false, doneOn: 'NaN',},
+    {description:"Rulo dondurma yemek", done: false, doneOn: 'NaN'},
 ];
 
 /**
